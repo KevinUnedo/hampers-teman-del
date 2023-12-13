@@ -20,7 +20,6 @@ Route::get('/login', function () {
 Route::get('/category', function () {
     return view('category');
 });
-
 Route::get('/', function () {
     return view('home');
 });
