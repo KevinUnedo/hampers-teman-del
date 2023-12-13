@@ -13,10 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('login');
 });
 
 Route::get('/category', function () {
     return view('category');
+});
+
+Route::get('/home', function () {
+    return view('home');
 });
