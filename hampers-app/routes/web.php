@@ -21,6 +21,6 @@ Route::get('/category', function () {
     return view('category');
 });
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 });
