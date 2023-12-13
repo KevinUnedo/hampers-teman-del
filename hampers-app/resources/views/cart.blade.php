@@ -147,7 +147,7 @@
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="" class="nav-item nav-link">Login</a>
+                            <a href="{{ url('/login') }}" class="nav-item nav-link">Login</a>
                             <a href="" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
@@ -161,7 +161,9 @@
     <!-- Page Header Start -->
     <div class="container-fluid bg-secondary mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
-            <h1 class="font-weight-semi-bold text-uppercase mb-3">Shopping Cart</h1>
+            <!-- Updated logo and title styling -->
+            <img src="img/favicon.png" alt="" class="header-logo mb-2" style="width: 70px;">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3 header-title">Shopping Cart</h1>
             <div class="d-inline-flex">
                 <p class="m-0"><a href="">Home</a></p>
                 <p class="m-0 px-2">-</p>
