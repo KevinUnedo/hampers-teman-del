@@ -61,9 +61,12 @@
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a href="" class="text-decoration-none">
-                <h1 class="m-0 display-5 font-weight-semi-bold"><img src="img/favicon.png" alt="" style="width: 50px;">Hampers Teman Del</h1>
+                    <h1 class="m-0 display-5 font-weight-semi-bold">
+                        <img src="img/favicon.png" alt="" style="width: 50px;"> Hampers Teman Del
+                    </h1>
                 </a>
             </div>
+        </div>
             <div class="col-lg-6 col-6 text-left">
                 <form action="">
                     <div class="input-group">
@@ -336,10 +339,10 @@
                 <a href="" class="text-decoration-none">
                     <h1 class="m-0 display-5 font-weight-semi-bold"><img src="img/favicon.png" alt="" style="width: 70px;">Hampers Teman Del</h1>    
                 </a>
-                <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                <p>Kreatifitas Dalam Setiap Kotak, Cinta Dalam Setiap Hampers: Teman Del Special Edition!.</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3">      Sitoluama, Laguboti, Sumatera Utara</i></p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>temandelhampers@gmail.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+6812 345 67890</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
@@ -376,7 +379,7 @@
         <div class="row border-top border-light mx-xl-5 py-4">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-dark">
-                    &copy; <a class="text-dark font-weight-semi-bold" href="#">Hampers Teman Del</a>. All Rights Reserved. Designed
+                    &copy; <a class="text-dark font-weight-semi-bold" href="#"> Hampers Teman Del</a>. All Rights Reserved. Designed
                     by
                     <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">Kelompok 1</a><br>
                     </a>
@@ -394,18 +397,75 @@
     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+<!-- Contact Javascript File -->
+<script src="mail/jqBootstrapValidation.min.js"></script>
+<script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+<script>
+$(document).ready(function () {
+    // Attach a click event handler to all "Tambah" buttons
+    $('.btn-plus').on('click', function () {
+        // Find the corresponding quantity input
+        var quantityInput = $(this).closest('.input-group').find('input');
+        
+        // Get the current value and increment it
+        var currentValue = parseInt(quantityInput.val());
+        quantityInput.val(currentValue + 1);
+        
+        // Optionally, you can make an AJAX request to update the server-side cart
+        updateSubtotal();
+    });
+
+    // Attach a click event handler to all "Kurang" buttons
+    $('.btn-minus').on('click', function () {
+        // Find the corresponding quantity input
+        var quantityInput = $(this).closest('.input-group').find('input');
+        
+        // Get the current value and decrement it, but ensure it doesn't go below 1
+        var currentValue = parseInt(quantityInput.val());
+        if (currentValue > 1) {
+            quantityInput.val(currentValue - 1);
+            
+            // Optionally, you can make an AJAX request to update the server-side cart
+            updateSubtotal();
+        }
+    });
+
+    // Function to update the subtotal
+    function updateSubtotal() {
+        var subtotal = 0;
+
+        // Iterate through each row in the table
+        $('tbody tr').each(function () {
+            // Find quantity and price elements in the current row
+            var quantity = parseInt($(this).find('.form-control').val());
+            var price = parseFloat($(this).find('.align-middle').eq(1).text().replace('$', ''));
+
+            // Calculate the total for the current product
+            var total = quantity * price;
+
+            // Add the total to the subtotal
+            subtotal += total;
+
+            // Update the total column in the current row
+            $(this).find('.align-middle').eq(3).text('$' + total.toFixed(2));
+        });
+
+        // Update the subtotal in the UI
+        $('.subtotal-value').text('$' + subtotal.toFixed(2));
+    }
+});
+</script>
+
 </body>
 
 </html>
