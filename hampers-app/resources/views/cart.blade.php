@@ -344,7 +344,7 @@
                     <h1 class="m-0 display-5 font-weight-semi-bold"><img src="img/favicon.png" alt="" style="width: 70px;">Hampers Teman Del</h1>    
                 </a>
                 <p>Kreatifitas Dalam Setiap Kotak, Cinta Dalam Setiap Hampers: Teman Del Special Edition!.</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3">      Sitoluama, Laguboti, Sumatera Utara</i></p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Sitoluama, Laguboti, Sumatera Utara</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>temandelhampers@gmail.com</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+6812 345 67890</p>
             </div>
