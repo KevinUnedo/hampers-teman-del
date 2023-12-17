@@ -30,4 +30,6 @@ Route::get('/cart', function () {
     return view('cart');
 });
 
-
+Route::get('/contact', function () {
+    return view('contact');
+});
