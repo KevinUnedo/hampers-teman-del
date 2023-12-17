@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,9 @@ Route::get('/category', function () {
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/cart', function () {
+    return view('cart');
+});
+
+
