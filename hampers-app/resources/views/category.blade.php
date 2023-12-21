@@ -80,8 +80,8 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/" class="nav-item nav-link">Home</a>
-                            <a href="shop.html" class="nav-item nav-link active">Category</a>
-                            <a href="detail.html" class="nav-item nav-link">Hampers Detail</a>
+                            <a href="shop.html" class="nav-item nav-link active">Shop</a>
+                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
