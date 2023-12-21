@@ -187,9 +187,9 @@
                         <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Sendiri</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -204,9 +204,9 @@
                         <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Buat Doi</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 80.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -221,9 +221,9 @@
                         <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Ramai - Ramai</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 100.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -238,9 +238,9 @@
                         <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Wisuda</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 75.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -255,9 +255,9 @@
                         <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Valentine</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 65.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -272,9 +272,9 @@
                         <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Birthday Hampers</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -289,9 +289,9 @@
                         <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Just Because Hampers</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 70.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -306,9 +306,9 @@
                         <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">For Her</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
