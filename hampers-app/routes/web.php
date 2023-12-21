@@ -30,6 +30,7 @@ Route::get('/cart', function () {
     return view('cart');
 });
 
-Route::get('/payment', function () {
-    return view('payment');
+Route::get('/checkout', function () {
+    return view('checkout');
 });
+
