@@ -96,7 +96,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="/category" class="nav-item nav-link">Shop</a>
-                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <a href="detail.html" class="nav-item nav-link">Hampers Detail</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -187,9 +187,9 @@
                         <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Sendiri</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -204,9 +204,9 @@
                         <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Buat Doi</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 80.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -221,9 +221,9 @@
                         <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Natal Ramai - Ramai</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 100.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -238,9 +238,9 @@
                         <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Wisuda</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 75.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -255,9 +255,9 @@
                         <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Hampers Valentine</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 65.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -272,9 +272,9 @@
                         <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Birthday Hampers</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -289,9 +289,9 @@
                         <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Just Because Hampers</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 70.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -306,9 +306,9 @@
                         <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">For Her</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6>Rp 50.000</h6><h6 class="text-muted ml-2">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -333,24 +333,13 @@
                         Hampers Teman Del
                     </h2> 
                 </a>
-                <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
+                <p>Kreatifitas Dalam Setiap Kotak, Cinta Dalam Setiap Hampers: Teman Del Special Edition!</p>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Laguboti, Institut Teknologi Del</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>hampersdel@example.com</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
-                    <div class="col-md-4 mb-5">
-                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
-                        <div class="d-flex flex-column justify-content-start">
-                            <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
-                        </div>
-                    </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
                         <div class="d-flex flex-column justify-content-start">
