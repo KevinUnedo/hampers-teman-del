@@ -24,3 +24,7 @@ Route::get('/category', function () {
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/payment', function () {
+    return view('payment');
+});
